@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Online shopping site for mobile...</title>
+    <title>Online Shopping Site for Mobile...</title>
     <link rel="icon" href="images/favicon.webp" type="image/x-icon" />
-    <link
+    <link 
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -21,30 +21,337 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div>
-        <img src="images/logo.svg" alt="logo" />
+      <nav class="header">
+         <div>
+          <img src="images/logo.svg" alt="Flipkart-logo">
+         </div>
+         <div class="header-1">
+            <span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Search Icon</title><path d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16 16L21 21" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+            <span><input id="search-input"  type = "text" placeholder="Search for Products, Brands and More"/></span>
+         </div>    
+         <div class="header-4">
+           <span><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/profile-52e0dc.svg" alt="Login" class="-dOa_b L_FVxe" width="24" height="24"></span>
+           <span>
+            <h3  class="gapping">Login</h3>
+           </span>
+           <span>
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxNCAxMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfZF80OTc0Xzc1OTY5KSI+CjxwYXRoIGQ9Ik0zIDJMNyA2TDExIDIiIHN0cm9rZT0iIzExMTExMiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L2c+CjxkZWZzPgo8ZmlsdGVyIGlkPSJmaWx0ZXIwX2RfNDk3NF83NTk2OSIgeD0iMC4yNSIgeT0iMC4yNSIgd2lkdGg9IjEzLjUiIGhlaWdodD0iOS44MTI1IiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPgo8ZmVPZmZzZXQgZHk9IjEiLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMSIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMC4xNiAwIi8+CjxmZUJsZW5kIG1vZGU9Im5vcm1hbCIgaW4yPSJCYWNrZ3JvdW5kSW1hZ2VGaXgiIHJlc3VsdD0iZWZmZWN0MV9kcm9wU2hhZG93XzQ5NzRfNzU5NjkiLz4KPGZlQmxlbmQgbW9kZT0ibm9ybWFsIiBpbj0iU291cmNlR3JhcGhpYyIgaW4yPSJlZmZlY3QxX2Ryb3BTaGFkb3dfNDk3NF83NTk2OSIgcmVzdWx0PSJzaGFwZSIvPgo8L2ZpbHRlcj4KPC9kZWZzPgo8L3N2Zz4K" alt="Chevron" class="-dOa_b XdYXbi" width="12" height="12">
+           </span>
+         </div>
+         <div class="header-2">
+           <span>
+            <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg" alt="Cart" class="_1XmrCc" width="24" height="24">
+           </span>
+           <span>
+            <h3  class="gapping">Cart</h3>
+           </span>
+         </div>
+         <div class="header-2">
+          <span><img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/Store-9eeae2.svg" alt="Become a Seller" class="_1XmrCc"></span>
+          <h3  class="gapping">Become a Seller</h3>
+         </div>
+         <div class="header-3">
+          <span><img class="-dOa_b" src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_3verticalDots-ea7819.svg" width="24" height="24" alt="Dropdown with more help links"></span>
+         </div>
+      </nav>   
+      <div style="background-color: #f1f2f4; padding: 10px; ">
+        <div style="background-color: white; display: flex; align-items: center; justify-content: space-evenly; padding: 10px 0px 10px 0px; margin-top: 60px;">
+          <div class="new"> <Span><img  width="65px"  class="_2puWtW _3a3qyb" alt="Kilos" src="https://rukminim2.flixcart.com/flap/80/80/image/29327f40e9c4d26b.png?q=100"></Span>
+            <span>Kilos</span></div>
+            <div class="new">
+             <span><img width="65px"   class="_2puWtW _3a3qyb" alt="Mobiles" src="https://rukminim2.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100"></span>
+             <span>Mobiles</span>
+            </div>
+            <div class="new">
+             <span><img  width="65px"  class="_2puWtW _3a3qyb" alt="Fashion" src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0d75b34f7d8fbcb3.png?q=100"></span>
+             <span>Fashion</span>
+            </div>
+            <div class="new">
+             <span><img  width="65px"   class="_2puWtW _3a3qyb" alt="Electronics" src="https://rukminim2.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100"></span>
+             <span>Electronics</span>
+            </div>
+            <div class="new">
+              <span><img  width="65px"  class="_2puWtW _3a3qyb" alt="Home &amp; Furniture" src="https://rukminim2.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100"></span>
+              <span>Furniture</span>
+            </div>
+            <div class="new">
+             <span><img  width="65px"  class="_2puWtW _3a3qyb" alt="Appliances" src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/0139228b2f7eb413.jpg?q=100"></span>
+             <span>Appliances</span>
+           </div>
+           <div class="new">
+             <span><img   width="65px"  class="_2puWtW _3a3qyb" alt="Flight Bookings" src="https://rukminim2.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100"></span>
+             <span>Flight Bookings</span>
+           </div>
+           <div class="new">
+             <span><img  width="65px"  class="_2puWtW _3a3qyb" alt="Beauty, Toys &amp; More" src="https://rukminim2.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100"></span>
+             <span>Beauty, Toys</span>
+           </div>
+           <div class="new">
+             <span><img  width="65px"  class="_2puWtW _3a3qyb" alt="Two Wheelers" src="https://rukminim2.flixcart.com/fk-p-flap/128/128/image/05d708653beff580.png?q=100"></span>
+             <span>Two Wheelers</span>
+           </div>
+        </div>
+        <section class="section">
+          <div class="slider">
+            <input type="radio" name="radio-btn" id="radio1" hidden>
+            <input type="radio" name="radio-btn" id="radio2" hidden>
+            <input type="radio" name="radio-btn" id="radio3" hidden>
+            <input type="radio" name="radio-btn" id="radio4" hidden>
+            <div class="slide">
+              <div class="st">
+                <img src="images/four.webp" alt="">
+              </div>
+              <div class="st">
+                <img src="images/one.webp" alt="">
+              </div>
+              <div class="st">
+                <img src="images/three.webp" alt="">
+              </div>
+              <div class="st">
+                <img src="images/two.webp" alt="">
+              </div>
+            </div>
+            <div class="nav-auto">
+              <div class="a-b1"></div>
+              <div class="a-b2"></div>
+              <div class="a-b3"></div>
+              <div class="a-b4"></div>
+            </div>
+        
+            <div class="nav-m">
+              <label for="radio1" class="m-btn"></label>
+              <label for="radio2" class="m-btn"></label>
+              <label for="radio3" class="m-btn"></label>
+              <label for="radio4" class="m-btn"></label>
+            </div>
+          </div>
+        </section>
       </div>
-      <div class="search-box">
-        <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #424242"></i>
-        <input class="search" type="text" placeholder="Search for Products, Brands and more" />
+       <section style="background-color: #f1f2f4; display: flex;">
+          <div style="width:80%; background-color: white; align-items: center;justify-content: space-between; margin: 10px; padding: 10px;">
+            <h2>Best of Electronics</h2>
+            <div style=" padding: 20px;  display: flex; align-items:self-start; justify-content: space-evenly;">
+              <div class="new">
+                <span><img  width="150px"  src="images/new-11.webp"></span>
+                <span>Best Truewireless H...</span>
+                <span><b>Grab Now</b></span>
+               </div>
+               <div class="new">
+                <span><img  width="150px"  src="images/new-22.webp"></span>
+                <span>Noise Smartwatches</span>
+                <span><b>From $13</b></span>
+               </div>
+               <div class="new">
+                <span><img  width="150px"  class="_2puWtW _3a3qyb" alt="Fashion" src="images/nav-33.webp"></span>
+                <span>Fastrack Smartwatc..</span>
+                <span><b>From $15</b></span>
+               </div>
+               <div class="new">
+                <span><img  width="150px"  class="_2puWtW _3a3qyb" alt="Fashion" src="images/new-44.webp"></span>
+                <span>Sandisk Extreme Por...</span>
+                <span><b>From $52</b></span>
+               </div>
+               <div class="new">
+                <span><img  width="150px"  class="_2puWtW _3a3qyb" alt="Fashion" src="images/new-55.webp"></span>
+                <span>Monitor</span>
+                <span><b>From $82</b></span>
+               </div>
+            </div>
+          </div>
+       <div style="width:20%;">
+           <img style="width:300px; height:350px;"   src="images/ce3cf81edb760559.webp" alt="">
+       </div>
+        
+       </section>
+       <section style="background-color: #f1f2f4; display: flex;">
+        <div style="width: 100%; background-color: white;align-items: center;justify-content: space-between; margin: 10px; padding: 10px;">
+          <h2>Beauty, Food, Toys & more</h2>
+          <div style=" padding: 20px;  display: flex; align-items:self-start; justify-content: space-evenly;">
+            <div class="new">
+              <span><img  width="150px"  src="images/new-one.webp"></span>
+              <span>Coffee Powder</span>
+              <span><b>upto 80% off</b></span>
+             </div>
+             <div class="new">
+              <span><img  width="150px"  src="images/new-two.webp"></span>
+              <span>Geared Cycles</span>
+              <span><b>up to 70% off</b></span>
+             </div>
+             <div class="new">
+              <span><img  width="150px"  class="_2puWtW _3a3qyb" alt="Fashion" src="images/new-three.webp"></span>
+              <span>Top Selling Stationery</span>
+              <span><b>From $49</b></span>
+             </div>
+             <div class="new">
+              <span><img  width="150px"  class="_2puWtW _3a3qyb" alt="Fashion" src="images/493176286-2.jpg"></span>
+              <span>Remote Control Toys</span>
+              <span><b>up to 80% Off</b></span>
+             </div>
+             <div class="new">
+              <span><img  width="150px"  class="_2puWtW _3a3qyb" alt="Fashion" src="images/dry.webp"></span>
+              <span>Dry Fruits</span>
+              <span><b>Upto 75% Off</b></span>
+             </div>
+             <div class="new">
+              <span><img  width="150px"  class="_2puWtW _3a3qyb" alt="Fashion" src="images/toy.webp"></span>
+              <span>Soft Toys</span>
+              <span><b>Upto 70% Off</b></span>
+             </div>
+             <div class="new">
+              <span><img  width="150px"  class="_2puWtW _3a3qyb" alt="Fashion" src="images/63a690176026733e3b6223fa-scooway-electric-bike-750w-electric.jpg"></span>
+              <span>Electric Cycle</span>
+              <span><b>Upto 40% Off</b></span>
+             </div>
+          </div>
+        </div>
+     </section>
+     <section style="background-color: #f1f2f4; display: flex;">
+      <div style="width: 100%; background-color: white;align-items: center;justify-content: space-between; margin: 10px; padding: 10px;">
+        <h2>Sports, Healthcare & more</h2>
+        <div style=" padding: 20px;  display: flex; align-items:self-start; justify-content: space-evenly;">
+          <div class="new">
+            <span><img  width="150px"  src="images/3-1.webp"></span>
+            <span>Non-Geared Cycles</span>
+            <span><b>upto 40% off</b></span>
+           </div>
+           <div class="new">
+            <span><img  width="150px"  src="images/3-2.webp"></span>
+            <span>Best of Action Toys</span>
+            <span><b>up to 70% off</b></span>
+           </div>
+           <div class="new">
+            <span><img  width="150px"  class="_2puWtW _3a3qyb" alt="Fashion" src="images/3-3.jpg"></span>
+            <span>Yoga Mat</span>
+            <span><b>From $40</b></span>
+           </div>
+           <div class="new">
+            <span><img  width="150px" height="150px"  class="_2puWtW _3a3qyb" alt="Fashion" src="images/gym.jpg"></span>
+            <span>Treadmill, Exercise B...</span>
+            <span><b>up to 70% Off</b></span>
+           </div>
+           <div class="new">
+            <span><img  width="150px"  class="_2puWtW _3a3qyb" alt="Fashion" src="images/3-5.jpg"></span>
+            <span>Food Spreads</span>
+            <span><b>upto 75% Off</b></span>
+           </div>
+           <div class="new">
+            <span><img  width="150px" height="150px" class="_2puWtW _3a3qyb" alt="Fashion" src="images/puzzel.jpg"></span>
+            <span>Puzzles & Cubes</span>
+            <span><b>From $9</b></span>
+           </div>
+           <div class="new">
+            <span><img  width="150px"  class="_2puWtW _3a3qyb" alt="Fashion" src="images/3-7.webp"></span>
+            <span>Musical Toys</span>
+            <span><b>Under 190</b></span>
+           </div>
+        </div>
       </div>
-      <div class="head-2">
-          <i style = "font-size: 20px;"   class="fa-solid fa-circle-user"></i>
-          <h3 style = "padding-left: 10px;">Login</h3>
-          <i  style = "font-size: 20px; padding-left: 5px;" class="fa-solid fa-angle-down"></i>
+   </section>
+   <div style="border-bottom: 1px solid gray;"></div>
+   <section style="background-color: #f5f5f5; padding: 50px 10px 10px 10px;">
+       <p style="cursor: pointer; padding-bottom:8px;">Top Stories : Brand Directory</h3>
+       <p style="padding: 2px; font-size: small;">MOST SEARCHED FOR ON FLIPKART : flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 | </p>
+       <p style="padding: 2px; font-size: small;">MOST SEARCHED FOR ON FLIPKART : flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 | </p>
+       <p style="padding: 2px; font-size: small;">MOST SEARCHED FOR ON FLIPKART : flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 | </p>
+       <p style="padding: 2px; font-size: small;">MOST SEARCHED FOR ON FLIPKART : flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 | </p>
+       <p style="padding: 2px; font-size: small;">MOST SEARCHED FOR ON FLIPKART : flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 | </p>
+       <p style="padding: 2px; font-size: small;">MOST SEARCHED FOR ON FLIPKART : flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 | </p>
+       <p style="padding: 2px; font-size: small;">MOST SEARCHED FOR ON FLIPKART : flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 | </p>
+       <p style="padding: 2px; font-size: small;">MOST SEARCHED FOR ON FLIPKART : flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 | </p>
+       <p style="padding: 2px; font-size: small;">MOST SEARCHED FOR ON FLIPKART : flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 | </p>
+       <p style="padding: 2px; font-size: small;">MOST SEARCHED FOR ON FLIPKART : flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 | </p>
+       <p style="padding: 2px; font-size: small;">MOST SEARCHED FOR ON FLIPKART : flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 | </p>
+       <p style="padding: 2px; font-size: small;">MOST SEARCHED FOR ON FLIPKART : flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 |flipkart sale | Google pixel 9A | Samsung S15 | Mobile | POCO M7 | </p>
+   </section>
+   <div style="border-bottom: 1px solid gray;"></div>
+   <section>
+    <section style="background-color: #f5f5f5; padding: 50px 10px 10px 10px;">
+      <p style="cursor: pointer; padding-bottom:8px;">Flipkart:The One-stop Shopping Destination</h3>
+      <p style="padding: 2px; font-size: small;">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.</p>
+  </section>
+  <section style="background-color: #f5f5f5; padding: 10px">
+   <p style="cursor: pointer; padding-bottom:8px;">Flipkart:The One-stop Shopping Destination</h3>
+   <p style="padding: 2px; font-size: small;">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.</p>
+</section>
+<section style="background-color: #f5f5f5; padding: 10px;">
+ <p style="cursor: pointer; padding-bottom:8px;">Flipkart:The One-stop Shopping Destination</h3>
+ <p style="padding: 2px; font-size: small;">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.</p>
+</section>
+<section style="background-color: #f5f5f5; padding:10px;">
+ <p style="cursor: pointer; padding-bottom:8px;">Flipkart:The One-stop Shopping Destination</h3>
+ <p style="padding: 2px; font-size: small;">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.</p>
+</section>
+<section style="background-color: #f5f5f5; padding: 10px;">
+ <p style="cursor: pointer; padding-bottom:8px;">Flipkart:The One-stop Shopping Destination</h3>
+ <p style="padding: 2px; font-size: small;">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.</p>
+</section>
+<section style="background-color: #f5f5f5; padding:10px;">
+ <p style="cursor: pointer; padding-bottom:8px;">Flipkart:The One-stop Shopping Destination</h3>
+ <p style="padding: 2px; font-size: small;">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.</p>
+</section>
+<section style="background-color: #f5f5f5; padding:  10px;">
+ <p style="cursor: pointer; padding-bottom:8px;">Flipkart:The One-stop Shopping Destination</h3>
+ <p style="padding: 2px; font-size: small;">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.</p>
+</section>
+<section style="background-color: #f5f5f5; padding:  10px;">
+ <p style="cursor: pointer; padding-bottom:8px;">Flipkart:The One-stop Shopping Destination</h3>
+ <p style="padding: 2px; font-size: small;">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.</p>
+</section>
+<section style="background-color: #f5f5f5; padding: 10px;">
+ <p style="cursor: pointer; padding-bottom:8px;">Flipkart:The One-stop Shopping Destination</h3>
+ <p style="padding: 2px; font-size: small;">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.</p>
+</section>
+<section style="background-color: #f5f5f5; padding: 10px;">
+ <p style="cursor: pointer; padding-bottom:8px;">Flipkart:The One-stop Shopping Destination</h3>
+ <p style="padding: 2px; font-size: small;">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.</p>
+</section>
+<section style="background-color: #f5f5f5; padding: 10px;">
+ <p style="cursor: pointer; padding-bottom:8px;">Flipkart:The One-stop Shopping Destination</h3>
+ <p style="padding: 2px; font-size: small;">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.</p>
+</section>
+   </section>
+  <footer style="background-color: #212121; ">
+      <div style="display: grid;">
+        <div style="padding: 10px;">
+            <h5 style="color: #878787; margin: 5px; padding: 5px;">ABOUT</h5>
+            <p class="footer-p">Contact us</p>
+            <p class="footer-p">About us</p>
+            <p class="footer-p">Careers</p>
+            <p class="footer-p">Flipkart Stories</p>
+            <p class="footer-p">Press</p>
+            <p class="footer-p">Corporate Stories</p>
+        </div>
+        <div style="padding: 10px;">
+          <h5 style="color: #878787; margin: 5px; padding: 5px;">ABOUT</h5>
+          <p class="footer-p">Contact us</p>
+          <p class="footer-p">About us</p>
+          <p class="footer-p">Careers</p>
+          <p class="footer-p">Flipkart Stories</p>
+          <p class="footer-p">Press</p>
+          <p class="footer-p">Corporate Stories</p>
       </div>
-      <div class="head-1">
-        <i class="fa-solid fa-cart-shopping" style="color: #000000"></i>
-        <h3 style="padding-left: 10px;">Cart</h3>
+      <div style="padding: 10px;">
+        <h5 style="color: #878787; margin: 5px; padding: 5px;">ABOUT</h5>
+        <p class="footer-p">Contact us</p>
+        <p class="footer-p">About us</p>
+        <p class="footer-p">Careers</p>
+        <p class="footer-p">Flipkart Stories</p>
+        <p class="footer-p">Press</p>
+        <p class="footer-p">Corporate Stories</p>
+    </div>
+    <div style="padding: 10px;">
+      <h5 style="color: #878787; margin: 5px; padding: 5px;">ABOUT</h5>
+      <p class="footer-p">Contact us</p>
+      <p class="footer-p">About us</p>
+      <p class="footer-p">Careers</p>
+      <p class="footer-p">Flipkart Stories</p>
+      <p class="footer-p">Press</p>
+      <p class="footer-p">Corporate Stories</p>
+  </div>
       </div>
-      <div class="head-1">
-        <i class="fa-solid fa-basket-shopping" style="color: #000000"></i>
-        <h3 style="padding-left: 10px;">Become a seller</h3>
-      </div>
-      <div  style="cursor: pointer;"   class="hamburg">
-            <i class="fa-solid fa-ellipsis-vertical" style="color: #000000"></i>
-      </div>
-    </header>
+  </footer>
+
+
+      
   </body>
-</html>
+</html>      
