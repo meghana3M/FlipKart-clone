@@ -4,7 +4,7 @@ A responsive e-commerce website clone of [Flipkart](https://www.flipkart.com) bu
 
 Technologies Used
 - HTML5
-- CSS3 & TailwindCSS
+- CSS3 
 - Git & GitHub for version control
 
 
